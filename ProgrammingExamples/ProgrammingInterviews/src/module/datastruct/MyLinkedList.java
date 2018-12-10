@@ -38,7 +38,7 @@ public class MyLinkedList {
 				pointer.next = pointer.next.next;
 				break; ////return pointer.next if return a linklist
 			}
-			head = head.next;
+			pointer = pointer.next;
 		}
 	}
 	
